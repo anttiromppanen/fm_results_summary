@@ -10,7 +10,7 @@ function SummaryCard() {
             return (
             <div key={result.category} className="flex justify-between p-4 sm:p-3 rounded-lg" style={{ backgroundColor: result.background }}>
               <div className="flex">
-                <img src={`/static/images/assets/images${result.icon}`} alt="" />
+                <img src={`/static/images/${result.icon}`} alt="" />
                 <p className="ml-3 font-bold" style={{ color: result.textColor }}>
                   {result.category}
                 </p>
