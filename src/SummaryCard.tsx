@@ -22,8 +22,8 @@ function SummaryCard() {
             )
           })
         }
-        <button className="bg-darkGrayBlue py-4 sm:py-3 rounded-3xl text-white hover:bg-gradient-to-t from-gradientPersianBlue from-30% to-gradientVioletBlue">Continue</button>
       </div>
+        <button className="bg-darkGrayBlue py-4 sm:py-3 mt-7 sm:mt-0 w-full rounded-3xl text-white hover:bg-gradient-to-t from-gradientPersianBlue from-30% to-gradientVioletBlue">Continue</button>
     </div>
   )
 }
